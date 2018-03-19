@@ -1,0 +1,152 @@
+<%@ page language="java" import="java.sql.*,java.io.*,java.util.*" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import= "JDBC.JDBC" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>卡管理——右侧</title>
+</head>
+<body>
+   
+     <h2 style = "text-align:center;">查询所有表格</h2>
+      <table class="table table-striped table-bordered table-hover table-condensed" align="center"> 
+        <tr> 
+            <th> 
+                时间
+            </th> 
+            <th> 
+                课节
+            </th> 
+            <th> 
+                实验室编号
+            </th> 
+            <th> 
+                负责人
+            </th> 
+            <th> 
+                是否预定
+            </th> 
+        </tr> 
+        <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第一大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                是
+            </td> 
+        </tr> 
+        <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第二大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                否
+            </td> 
+        </tr> 
+        <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第三大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                是
+            </td> 
+        </tr> 、
+        <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第四大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                否
+            </td> 
+        </tr> 
+        <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第五大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                是
+            </td> 
+        </tr> 
+        <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第六大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                是
+            </td> 
+        </tr> 
+         <tr> 
+            <td> 
+               11-11
+            </td> 
+            <td> 
+                第七大节
+            </td> 
+            <td> 
+                J302
+            </td> 
+            <td> 
+                唐三藏
+            </td> 
+            <td> 
+                否
+            </td> 
+        </tr> 
+    </table> 
+</body>
+</html>
